@@ -1,0 +1,30 @@
+{
+  "name": "fsfp-homework-14-scraper",
+  "version": "1.0.0",
+  "description": "Full Stack Flex Program Homework 14: Scraper",
+  "main": "server.js",
+  "scripts": {
+    "develop": "export NODE_ENV=development && nodemon server.js" ,
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabeldmc/fsfp-homework-14-scraper.git"
+  },
+  "author": "jabeldmc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabeldmc/fsfp-homework-14-scraper/issues"
+  },
+  "homepage": "https://github.com/jabeldmc/fsfp-homework-14-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}

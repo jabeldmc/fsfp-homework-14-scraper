@@ -1,0 +1,6 @@
+{
+  "development": "mongodb://localhost/homework-14" ,
+  "production": {
+    "use_env_variable": "MONGODB_URI"
+  }
+}

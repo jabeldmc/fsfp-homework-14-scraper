@@ -1,0 +1,23 @@
+<!-- views/partials/scrapedNendoroid.handlebars
+-->
+
+<li class="list-group-item">
+    <div class="d-flex flex-row mt-2">
+        <p class="h5 flex-grow-1 mb-3">#{{number}}</p>
+        <p class="h5 text-right mb-3">{{name}}</p>
+    </div>
+    <p class="clearfix">
+        <img class="rounded float-left mr-3" width="40%" height="auto" src="{{imageUrl}}">
+        <small>{{description}}</small>
+    </p>
+    <div class="d-flex flex-row">
+        <p class="flex-grow-1">Release {{releaseDate}}</p>
+        <p class="text-right">{{price}}</p>
+    </div>
+    <div class="d-flex justify-content-end mb-3">
+        <button class="button-save btn btn-primary" data-number="{{number}}">I Want It!</button>
+    </div>
+    <div class="alert alert-secondary mb-2" role="alert">
+        <pre class="py-1 mb-0"><small>{{toJSON this}}</small></pre>
+    </div>
+</li>
