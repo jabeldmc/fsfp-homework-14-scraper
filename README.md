@@ -16,6 +16,10 @@ The application asks the user for the year to look into and how many Nendoroids 
 
 # History
 
+## Build 4
+
+* Hide Nendoroid JSON from view.
+
 ## Build 3
 
 * Added notes support.
